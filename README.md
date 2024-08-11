@@ -10,7 +10,6 @@ A service that supports a busy online reservation system using Node.js, Redis, a
   - [Installation](#installation)
   - [Usage](#usage)
   - [API Endpoints](#api-endpoints)
-  - [Project Structure](#project-structure)
 
 ## Features
 
@@ -77,6 +76,4 @@ A service that supports a busy online reservation system using Node.js, Redis, a
   - **POST** `/events/:eventId/seats/:seatId/refresh`
   - Request body: `{ "userId": string }`
   - Response: `200 OK` with refresh hold data
-
-## Project Structure
 
