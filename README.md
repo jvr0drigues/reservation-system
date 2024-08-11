@@ -10,6 +10,7 @@ A service that supports a busy online reservation system using Node.js, Redis, a
   - [Installation](#installation)
   - [Usage](#usage)
   - [API Endpoints](#api-endpoints)
+  - [Swagger API](#swagger-api)
 
 ## Features
 
@@ -76,4 +77,9 @@ A service that supports a busy online reservation system using Node.js, Redis, a
   - **POST** `/events/:eventId/seats/:seatId/refresh`
   - Request body: `{ "userId": string }`
   - Response: `200 OK` with refresh hold data
+
+## Swagger API
+
+The swa API specification can be found under the /api-docs path
+e.g. http://localhost:3000/api-docs/
 
