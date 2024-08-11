@@ -24,7 +24,7 @@ A service that supports a busy online reservation system using Node.js, Redis, a
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/reservation-system.git
+    git clone https://github.com/jvr0drigues/reservation-system.git
     cd reservation-system
     ```
 
